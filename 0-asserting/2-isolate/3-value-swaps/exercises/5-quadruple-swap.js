@@ -13,6 +13,12 @@ let d = 'x';
 let temp;
 
 // --- swap values ---
+temp = 'x';
+a = 'w';
+b = 'x';
+c = 'y';
+d = 'z';
+
 
 // --- test final values ---
 
@@ -24,6 +30,6 @@ console.assert(c === 'y', 'Test 3');
 
 console.assert(d === 'z', 'Test 4');
 
-console.assert(temp === _, 'Test 5');
+console.assert(temp === 'x', 'Test 5');
 
 console.log('-- end --');
